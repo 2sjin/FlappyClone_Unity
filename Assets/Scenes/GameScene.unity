@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipe: {fileID: 46692848}
-  timeDiff: 3
+  timeDiff: 2
 --- !u!4 &159500812
 Transform:
   m_ObjectHideFlags: 0
@@ -181,14 +181,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4623520698210316523, guid: e9efcd2c46e61934b90c17be863df4ff, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.01999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4623520698210316523, guid: e9efcd2c46e61934b90c17be863df4ff, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.56
-      objectReference: {fileID: 0}
     - target: {fileID: 4623520699511182104, guid: e9efcd2c46e61934b90c17be863df4ff, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -236,10 +228,6 @@ PrefabInstance:
     - target: {fileID: 4623520699511182106, guid: e9efcd2c46e61934b90c17be863df4ff, type: 3}
       propertyPath: m_Name
       value: Pipe
-      objectReference: {fileID: 0}
-    - target: {fileID: 4623520699511182107, guid: e9efcd2c46e61934b90c17be863df4ff, type: 3}
-      propertyPath: speed
-      value: 2.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9efcd2c46e61934b90c17be863df4ff, type: 3}
