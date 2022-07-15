@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Move : MonoBehaviour {
-    public float speed = 1.5f;
+    float speed = 2.1f;
 
     void Start() {
 
