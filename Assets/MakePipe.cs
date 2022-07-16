@@ -23,7 +23,7 @@ public class MakePipe : MonoBehaviour {
         if (timer > timeDiff) {
             GameObject newpipe = Instantiate(pipe);
 
-            newpipe.transform.position = new Vector3(5, Random.Range(pipePositionMin, pipePositionMax), 0);
+            newpipe.transform.position = new Vector3(4.2f, Random.Range(pipePositionMin, pipePositionMax), 0);
             timer = 0;
 
             Destroy(newpipe, 6.0f);    // 7초 후 파이프 제거
