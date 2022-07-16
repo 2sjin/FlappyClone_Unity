@@ -1,0 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Replay : MonoBehaviour {
+    public void ReplayGame() {
+        Score.score = 0;    // 점수 초기화
+        SceneManager.LoadScene("PlayScene");
+    }
+}
